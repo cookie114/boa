@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<power_ctrl version="1"  stop_flag="0" power_num="12">
+	<group start_time="00:00:00" end_time="05:59:59">
+		<ctrl_serial duration_ms="200000">0,0,0,0,0,0,0,0,0,0,0,0</ctrl_serial>
+	</group>
+	<group start_time="06:00:00" end_time="17:59:59">
+		<ctrl_serial duration_ms="1000">0,0,0,0,0,0,0,0,0,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,0,0,0,0,0,0,0,0,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,0,0,0,0,0,0,0,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,0,0,0,0,0,0,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,10,0,0,0,0,0,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,10,10,0,0,0,0,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,10,10,10,0,0,0,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,10,10,10,10,0,0,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,10,10,10,10,10,0,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,10,10,10,10,10,10,0,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,10,10,10,10,10,10,10,0,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,10,10,10,10,10,10,10,10,0</ctrl_serial>
+		<ctrl_serial duration_ms="1000">10,10,10,10,10,10,10,10,10,10,10,10</ctrl_serial>
+	</group>
+	<group start_time="18:00:00" end_time="23:59:59">
+		<ctrl_serial duration_ms="300000">0,0,0,0,0,0,0,0,0,0,0,0</ctrl_serial>
+	</group>
+</power_ctrl>

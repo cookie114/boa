@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<light_sensor version="1" sensor_cnt="1" stop_flag="0" power_num="1" check_lux_delay="500">
+    <serial light="200" voltage="100"></serial>
+
+    <serial light="300" voltage="90"></serial>
+    <serial light="400" voltage="80"></serial>
+    <serial light="500" voltage="70"></serial>
+	<serial light="600" voltage="65"></serial>
+	<serial light="700" voltage="60"></serial>
+	<serial light="800" voltage="55"></serial>
+	<serial light="900" voltage="50"></serial>
+	<serial light="1000" voltage="48"></serial>
+	<serial light="1500" voltage="46"></serial>
+	<serial light="2000" voltage="44"></serial>
+	<serial light="2500" voltage="42"></serial>
+	<serial light="3000" voltage="40"></serial>
+	<serial light="3500" voltage="38"></serial>
+	<serial light="4000" voltage="36"></serial>
+	<serial light="4500" voltage="34"></serial>
+	<serial light="5000" voltage="32"></serial>
+	<serial light="5500" voltage="30"></serial>
+
+	<serial light="6000" voltage="28"></serial>
+	<serial light="6500" voltage="26"></serial>
+	<serial light="7000" voltage="24"></serial>
+	<serial light="7500" voltage="22"></serial>
+	<serial light="8000" voltage="20"></serial>
+	<serial light="9000" voltage="10"></serial>
+	<serial light="10000" voltage="0"></serial>
+
+</light_sensor>

@@ -1,0 +1,29 @@
+<script src="jquery-1.2.6.min.js" type="text/javascript"></script> 
+<script type="text/javascript"> 
+//简化document.getElementById()方法 
+function getObj(obj){   
+  return document.getElementById(obj); 
+} 
+function insRow(){  
+  //插入行 
+  var obj=getObj("nw"); 
+  var newRow=obj.insertRow(obj.rows.length); //插入行方法 
+  var newCell1=newRow.insertCell(newRow.cells.length); //插入单元格 如果直接用insertCell()在FF里会出错，所以为了兼容，我们要加上newRow.cells.length参数 
+  var newCell2=newRow.insertCell(newRow.cells.length); 
+  var newCell3=newRow.insertCell(newRow.cells.length); 
+  newCell1.innerHTML=getObj("name").value; //插入单元格后，现在向单元格中添加内容 
+  newCell2.innerHTML=getObj("add").value; 
+   
+  //清空文本框 
+  document.all("name").value=""; 
+  document.all("add").value="";
+  //将当前表格最后一行的序号写在delRow()方法中，这样我们可以在delRow()方法中删除当前行 
+  newCell3.innerHTML='<a href="javascript:delRow('+(obj.rows.length-1)+')">删除</a>';  
+} 
+//删除行 
+function delRow(i){   
+  var obj=getObj("nw"); 
+  obj.deleteRow(i); 
+} 
+
+</script> 
